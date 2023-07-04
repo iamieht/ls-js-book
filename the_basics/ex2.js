@@ -13,8 +13,7 @@ number = (number - ones) / 10;
 let tens = number % 10;
 number = (number - tens) / 10;
 let hundreds = number % 10;
-number = (number - hundreds) / 10;
-let thousands = number % 10;
+let thousands = (number - hundreds) / 10;
 
 console.log(`For number: ${number}
             thousands place is ${thousands}
