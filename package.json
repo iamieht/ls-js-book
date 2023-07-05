@@ -1,0 +1,15 @@
+{
+  "name": "ls-js-book",
+  "version": "1.0.0",
+  "description": "Launch School JS100 Book: Introduction to Programming with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
